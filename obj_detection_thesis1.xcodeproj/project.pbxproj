@@ -9,6 +9,70 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>258BD733949A19E1F0702FFA</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxThreadedImageLoader.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxThreadedImageLoader/src/ofxThreadedImageLoader.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F7347CBF7C47F1110E5FA42A</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>45B576A8B106CBE71564781C</string>
+					<string>258BD733949A19E1F0702FFA</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>3CD2B0AEE6FE628A91175CDA</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>F7347CBF7C47F1110E5FA42A</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxThreadedImageLoader</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>EC26F225D807F4F069405924</key>
+			<dict>
+				<key>fileRef</key>
+				<string>45B576A8B106CBE71564781C</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>45B576A8B106CBE71564781C</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxThreadedImageLoader.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxThreadedImageLoader/src/ofxThreadedImageLoader.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>E35D4CEB45A7CF360903FF1A</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -9215,6 +9279,7 @@ fi
 						<string>../../../addons/ofxOpenCv/src</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
+						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -9333,6 +9398,7 @@ fi
 						<string>../../../addons/ofxOpenCv/src</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
+						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>
@@ -9372,6 +9438,7 @@ fi
 					<string>480A780D8D0308AE4A368801</string>
 					<string>A0B90D3B0ADB9C1716816714</string>
 					<string>90E55D58F8816CD18E079212</string>
+					<string>3CD2B0AEE6FE628A91175CDA</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -12213,6 +12280,7 @@ fi
 						<string>../../../addons/ofxOpenCv/src</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
+						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -12351,6 +12419,7 @@ fi
 						<string>../../../addons/ofxOpenCv/src</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
+						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -12395,6 +12464,7 @@ fi
 					<string>63020F16C7E8DED980111241</string>
 					<string>D3301F6A0B43BB293ED97C1D</string>
 					<string>CD41DC6BFFA7AD6E0924303F</string>
+					<string>EC26F225D807F4F069405924</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -12570,6 +12640,7 @@ fi
 						<string>../../../addons/ofxOpenCv/src</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
+						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_DEBUG)</string>
@@ -12698,6 +12769,7 @@ fi
 						<string>../../../addons/ofxOpenCv/src</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
 						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
+						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>
