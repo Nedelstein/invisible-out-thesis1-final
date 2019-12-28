@@ -31,7 +31,6 @@ void ofApp::update(){
         // camera image automatically will be croped to detector.setNetworkImageSige
         uint64_t t0 = ofGetElapsedTimeMillis();
         detector.update(camera.getPixels());
-        detection_time = ofGetElapsedTimeMillis()-t0;
     }
 
 }
@@ -43,8 +42,6 @@ void ofApp::draw(){
     camera.draw(0,0);
     detector.draw(0,0, camera.getWidth(), camera.getHeight());
     ofDrawBitmapStringHighlight("FPS:"+ofToString(ofGetFrameRate(), 0),20, 20);
-    ofDrawBitmapStringHighlight("Detection Time:"+ofToString(detection_time),20, 40);
-
 }
 
 //--------------------------------------------------------------

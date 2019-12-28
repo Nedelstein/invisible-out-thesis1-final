@@ -286,10 +286,11 @@ void ofxOpenCvDnnObjectDetection::draw(float _x, float _y, float _w, float _h)
         
         ofFill();
         ofDrawRectangle(r_scaled.x, r_scaled.y-18,r_scaled.width,18);
-        ofSetColor(ofColor::white);
+        ofPushStyle();
+        ofSetColor(ofColor::black);
         font_info.drawString("NO["+ ofToString(i) +"] ID:["+ofToString(object.at(i).class_id)+"]: "+object.at(i).name + ": " + ofToString(object.at(i).p),
                                     r_scaled.x,r_scaled.y);
-        
+        ofPopStyle();
         
 //        if person is detected, fill box with image of person
         
@@ -764,9 +765,9 @@ void ofxOpenCvDnnObjectDetection::setup(string _path_to_cfg, string _path_to_wei
     filename_jpg = "test.jpg";
     filename_txt = "test.txt";
     
-    font_message.load(ofToDataPath("font/DIN Alternate Bold.ttf"), 12);
-    font_info.load(ofToDataPath("font/DIN Alternate Bold.ttf"), 12);
-    font_debug.load(ofToDataPath("font/DIN Alternate Bold.ttf"), 8);
+    font_message.load(ofToDataPath("font/Octapost.ttf"), 14);
+    font_info.load(ofToDataPath("font/Octapost.ttf"), 14);
+    font_debug.load(ofToDataPath("font/Octapost.ttf"), 10);
     
     
 //    putenv("OPENCV_OPENCL_RUNTIME=");
