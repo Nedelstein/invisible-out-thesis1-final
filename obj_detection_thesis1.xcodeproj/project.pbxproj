@@ -73,70 +73,6 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E35D4CEB45A7CF360903FF1A</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxOpenCvDnnObjectDetection.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxOpenCvDnnObjectDetection/src/ofxOpenCvDnnObjectDetection.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>26D07B484A654576244BC387</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>7024E6FC84C590250D5ED868</string>
-					<string>E35D4CEB45A7CF360903FF1A</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>90E55D58F8816CD18E079212</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>26D07B484A654576244BC387</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>ofxOpenCvDnnObjectDetection</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>CD41DC6BFFA7AD6E0924303F</key>
-			<dict>
-				<key>fileRef</key>
-				<string>7024E6FC84C590250D5ED868</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>7024E6FC84C590250D5ED868</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxOpenCvDnnObjectDetection.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxOpenCvDnnObjectDetection/src/ofxOpenCvDnnObjectDetection.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
 			<key>CE81A5E39EB3C871FDF3D4D5</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -9033,6 +8969,43 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>988A6A579CBD8C121648FA3F</key>
+			<dict>
+				<key>fileRef</key>
+				<string>A1F51AFF0337DDB1F5DD5C3F</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>A1F51AFF0337DDB1F5DD5C3F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxOpenCvDnnObjectDetection.cpp</string>
+				<key>path</key>
+				<string>src/ofxOpenCvDnnObjectDetection.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EEDF408C59CE6DFA3982C3F1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxOpenCvDnnObjectDetection.h</string>
+				<key>path</key>
+				<string>src/ofxOpenCvDnnObjectDetection.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>6948EE371B920CB800B5AC1A</key>
 			<dict>
 				<key>children</key>
@@ -9277,8 +9250,6 @@ fi
 						<string>../../../addons/ofxOpenCv/libs/opencv/lib/osx</string>
 						<string>../../../addons/ofxOpenCv/libs/opencv/license</string>
 						<string>../../../addons/ofxOpenCv/src</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
 						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
@@ -9396,8 +9367,6 @@ fi
 						<string>../../../addons/ofxOpenCv/libs/opencv/lib/osx</string>
 						<string>../../../addons/ofxOpenCv/libs/opencv/license</string>
 						<string>../../../addons/ofxOpenCv/src</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
 						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>ICON</key>
@@ -9437,7 +9406,6 @@ fi
 				<array>
 					<string>480A780D8D0308AE4A368801</string>
 					<string>A0B90D3B0ADB9C1716816714</string>
-					<string>90E55D58F8816CD18E079212</string>
 					<string>3CD2B0AEE6FE628A91175CDA</string>
 				</array>
 				<key>isa</key>
@@ -12278,8 +12246,6 @@ fi
 						<string>../../../addons/ofxOpenCv/libs/opencv/lib/osx</string>
 						<string>../../../addons/ofxOpenCv/libs/opencv/license</string>
 						<string>../../../addons/ofxOpenCv/src</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
 						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
@@ -12417,8 +12383,6 @@ fi
 						<string>../../../addons/ofxOpenCv/libs/opencv/lib/osx</string>
 						<string>../../../addons/ofxOpenCv/libs/opencv/license</string>
 						<string>../../../addons/ofxOpenCv/src</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
 						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
@@ -12446,6 +12410,7 @@ fi
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
+					<string>988A6A579CBD8C121648FA3F</string>
 					<string>856AA354D08AB4B323081444</string>
 					<string>5CBB2AB3A60F65431D7B555D</string>
 					<string>853E0BA2F448076739446874</string>
@@ -12463,7 +12428,6 @@ fi
 					<string>E212C821D1064B92DD953A42</string>
 					<string>63020F16C7E8DED980111241</string>
 					<string>D3301F6A0B43BB293ED97C1D</string>
-					<string>CD41DC6BFFA7AD6E0924303F</string>
 					<string>EC26F225D807F4F069405924</string>
 				</array>
 				<key>isa</key>
@@ -12638,8 +12602,6 @@ fi
 						<string>../../../addons/ofxOpenCv/libs/opencv/lib/osx</string>
 						<string>../../../addons/ofxOpenCv/libs/opencv/license</string>
 						<string>../../../addons/ofxOpenCv/src</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
 						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>ICON</key>
@@ -12767,8 +12729,6 @@ fi
 						<string>../../../addons/ofxOpenCv/libs/opencv/lib/osx</string>
 						<string>../../../addons/ofxOpenCv/libs/opencv/license</string>
 						<string>../../../addons/ofxOpenCv/src</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/libs</string>
-						<string>../../../addons/ofxOpenCvDnnObjectDetection/src</string>
 						<string>../../../addons/ofxThreadedImageLoader/src</string>
 					</array>
 					<key>ICON</key>
@@ -12809,6 +12769,8 @@ fi
 					<string>E4B69E1D0A3A1BDC003C02F2</string>
 					<string>E4B69E1E0A3A1BDC003C02F2</string>
 					<string>E4B69E1F0A3A1BDC003C02F2</string>
+					<string>EEDF408C59CE6DFA3982C3F1</string>
+					<string>A1F51AFF0337DDB1F5DD5C3F</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
